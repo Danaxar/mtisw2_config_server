@@ -1,12 +1,12 @@
 server:
-  port: 8088
+  port: 8081
 spring:
   cloud:
     config:
       server:
         git:
           default-label: main
-          uri: https://github.com/Danaxar/mtisw2_config_server
+          uri: https://github.com/Danaxar/mtisw2_config_data
           search-paths: config-data
   application:
     name: config-microservice
