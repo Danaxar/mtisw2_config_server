@@ -9,4 +9,4 @@ spring:
           uri: https://github.com/Danaxar/mtisw2_config_data
           search-paths: config-data
   application:
-    name: config-microservice
+    name: config-service
